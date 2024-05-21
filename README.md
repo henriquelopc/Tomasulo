@@ -63,20 +63,6 @@ for-each issued Instruction {
 3. *Ciclos de Execução Configuráveis*: O número de ciclos que cada tipo de instrução leva em sua fase de execução pode ser especificado.
 4. *Registradores Variáveis*: O número de registradores pode ser ajustado conforme necessário.
 
-## Melhorias Futuras
-
-1. *Simulação do Algoritmo de Scoreboarding*.
-2. *Adição de Buffer de Reordenação*.
-3. *Expansão do Conjunto de Instruções*.
-4. *Adição de Predição de Desvios* (pode exigir muitas mudanças).
-
-## Limitações
-
-1. *Resolução da Saída*: A saída pode não aparecer bem em resoluções abaixo de 1366x768; definitivamente não aparece intacta em resoluções abaixo de 1024x768.
-2. *Dependência de Plataforma*: O programa só pode ser executado em plataforma Windows devido à dependência da biblioteca Windows.h.
-3. *Ineficência*: O programa não é eficiente na execução e escrita de instruções, visitando todas as estações de reserva/buffers em cada ciclo.
-4. *Conjunto de Instruções Limitado*: Atualmente, o conjunto de instruções é limitado a ADDD, STORE, LOAD, SUB e MULT.
-
 ## Ferramentas Utilizadas
 
 1. *Diagrama de Classes*: NClass.
