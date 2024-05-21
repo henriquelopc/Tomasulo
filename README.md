@@ -77,4 +77,11 @@ for-each issued Instruction {
 3. Execute o programa resultante.
 4. Siga as instruções na tela para avançar ciclo a ciclo na simulação.
 5. Observe a saída no console para visualizar o estado do processador.
+   
+## Integrantes:
+- Erton Leite
+- Henrique Lourenço
+- Pedro Kreuzer
+- João Vitor Reis
+   
 
